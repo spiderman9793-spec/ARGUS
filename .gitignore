@@ -1,0 +1,40 @@
+# Python Virtual Environments
+mac_venv/
+.venv/
+.venv-1/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node Modules & Build Artifacts
+node_modules/
+*/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs & Environment Variables
+*.log
+.env
+.env.*
+!.env.example
+
+# OS / Editor Files
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
